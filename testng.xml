@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="shoe-portal-framework">
+    <listeners>
+        <listener class-name="ExtentReportListner.ExtentReporterNG" />
+    </listeners>
+
+    <test name="shoe-portal">
+        <classes>
+            <class name="TestCases.HomePageTest"></class>
+            <class name="TestCases.New_RegistrationTest"></class>
+
+        </classes>
+
+    </test>
+</suite>
