@@ -8,6 +8,7 @@ import java.io.IOException;
 
 import static Utilities.BaseClass.driver;
 
+
 public class TestUtils {
 
     public static void takeScreenshotAtEndOfTest() throws IOException {

@@ -18,7 +18,7 @@ public class BaseClass {
     public BaseClass() throws IOException {
         try {
              prop = new Properties();
-            FileInputStream fip = new FileInputStream("C:\\Users\\poona\\ISP-Automation\\Shoe_Portal\\src\\test\\java\\Config\\config.properties");
+            FileInputStream fip = new FileInputStream("src/test/java/Config/config.properties");
             prop.load(fip);
         }
         catch (FileNotFoundException e)
